@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Walidacja Formularzy</title>
+    <link rel="stylesheet" href="css/style.css">       
+</head>
+
+<body>
+    
+    <header>
+        <div id="header">
+            <h1>Walidacja Formularzy Javascript</h1>
+        </div>    
+    </header>
+
+    <section id="task-frontend">
+                
+            
+        <form id="forms" method="post" action="#" onsubmit="validate(event)">
+                    
+            <label for="name" class="form-title"> Imię </label> 
+            <input type="text" id="name"/>
+                    
+            <label for="lastname" class="form-title"> Nazwisko </label>
+            <input type="text" id="last-name"/>
+                   
+            <label for="email" class="form-title"> E-mail </label> 
+            <input type="text" id="email"/>
+                   
+            <input type="checkbox" id="frontend-checkbox" name="section" value="frontend">
+            <label for="frontend-checkbox" class="form-title">Frontend</label>
+                    
+            <input type="checkbox" id="backend-checkbox" name="section" value="frontend">
+            <label for="backend-checkbox" class="form-title">Backend</label>
+            
+            <input type="checkbox" id="mobile-checkbox" name="section" value="frontend">
+            <label for="mobile-checkbox" class="form-title">Mobile</label>
+           
+            <input type="checkbox" id="graphics-checkbox" name="section" value="frontend">
+            <label for="graphics-checkbox" class="form-title">Grafika</label>
+
+            <input type="submit" value="wyślij" class="hover-submit">
+        
+        </form>
+    </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+</html>
